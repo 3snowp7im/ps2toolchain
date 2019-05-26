@@ -7,7 +7,7 @@ unset PS2SDKSRC
 
 ## Download the source code.
 if test ! -d "ps2sdk/.git"; then
-	git clone https://github.com/ps2dev/ps2sdk && cd ps2sdk || exit 1
+	git clone https://github.com/3snowp7im/ps2sdk && cd ps2sdk || exit 1
 else
 	cd ps2sdk &&
 		git pull && git fetch origin &&
